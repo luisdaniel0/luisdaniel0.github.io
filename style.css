@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+
+}
+
+:root{
+  --primary-color:#ff00c8;
+  --text-color:#727171;
+
+}
+
+html{
+  font: size 10px;
+}
+
+body {
+  font-family:inter, sans-serif;
+  background-color:black;
+  color:white;
+
+}
+
+/* common styles */
+
+a{
+  text-decoration:none;
+  color:white;
+
+}
+
+img{
+  width:100%;
+  
+}
+
+.description{
+  margin-top:1rem;
+  font-size:1.5rem;
+  font-weight:400;
+  color:var(--text-color);
+}
+
+.title{
+  color:var(--primary-color);
+  font-weight:700;
+  font-size:2rem;
+  text-transform:uppercase;
+}
+
+/* layout */
+
+.container{
+  max-width:1000px;
+  width:90%;
+  margin:0 auto;
+  display:grid;
+  padding:5rem;
+  background:#1a1919;
+  grid-template-columns: 1fr 1fr;
+  gap:4rem;
+}
+
+@media only screen and (max-width:768px){
+  .container{
+    width:100%;
+    grid-template-columns:1fr;
+    padding:3rem;
+    gap:7rem;
+  }
+}
+.profile{
+  grid-column:1/-1;
+  margin:2rem;
+}
+
+/*profile*/
+
+.profile_container{
+  display:flex;
+  gap:2rem;
+
+}
+
+.profile_profileImg{
+  max-width:250px;
+}
+
+.profile_name_firstName{
+  color:white;
+  font-weight:200;
+  font-size:clamp(2rem,8vw,4rem);
+  text-transform:uppercase;
+  display:block;
+  margin-bottom:-0.8rem;
+}
+
+.profile_name_lastName{
+  color:var(--primary-color);
+  font-weight:700;
+  font-size:clamp(2.5rem,15vw,7rem);
+  text-transform:uppercase;
+  display:block;
+
+}
+
+.profile_title{
+  font-size:1.5rem;
+  font-weight:400;
+  text-transform:uppercase;
+
+}
+
+.downloadbtn{
+  display:block;
+  text-decoration:underline;
+  margin-top:1rem;
+  font-size:1.6rem;
+}
+
+.downloadbtn:hover{
+  color:var(--primary-color);
+}
+
+@media only screen and (max-width:768px){
+  .profile_container{
+    flex-direction:column;
+
+  }
+}
+
+/* expertise */
+
+.skill_list{
+  margin-top:1rem;
+  margin-left:2rem;
+}
