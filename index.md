@@ -42,6 +42,9 @@
 
   I’ve never used a BST before so implementing it was challenging at first, mainly the logic for insertion and ensuring the tree balanced itself during operation. Understanding how to properly traverse the tree in order to display the questions in a sorted manner was a key challenge that required multiple redo’s to get right.
 
+  ![BST](/imgs/dsa.png)
+  The insert method inserts a new question into the BST. If the tree is empty, the new question becomes the root node, otherwise, it calls a helper method to find the correct position in the tree. This method ensures the new question is inserted in the correct position in the tree based on lexicographical order. If the new question's text is smaller than the current node's text, it goes to the left. If it's larger, it goes to the right. It recursively traverses the tree to find the appropriate spot.
+
 
 
 
