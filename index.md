@@ -21,5 +21,5 @@
 
 ## **Code Review**
 
-[Code Review Link] (https://www.youtube.com/watch?v=xxfROwJEXEE)
+[Code Review Link](https://www.youtube.com/watch?v=xxfROwJEXEE)
 
