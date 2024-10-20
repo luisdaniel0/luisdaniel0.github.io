@@ -58,9 +58,7 @@
   ![BST](/imgs/dsa.png)
   The insert method inserts a new question into the BST. If the tree is empty, the new question becomes the root node, otherwise, it calls a helper method to find the correct position in the tree. This method ensures the new question is inserted in the correct position in the tree based on lexicographical order. If the new question's text is smaller than the current node's text, it goes to the left. If it's larger, it goes to the right. It recursively traverses the tree to find the appropriate spot.
 
-
-
-
+  [Enhanced Algorithm and Data Structure Repo](https://github.com/luisdaniel0/EnhancementTwo-Algorithms-and-Data-Structure)
 
 
 ## **Enhancement Three: Databases**
