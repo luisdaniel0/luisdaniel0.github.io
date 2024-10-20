@@ -63,6 +63,8 @@
 
   All of the course outcomes were met in this enhancement by designing the database schema to store quiz questions efficiently. I used structured SQL queries to retrieve data dynamically based on user input. This highlights my understanding of algorithmic efficiency when dealing with relational data, ensuring that database operations were optimized for performance. I made trade-offs between various approaches for data handling. For example, I opted for a relational database over storing data in a JSON file for scalability, despite the added complexity of setting up a MySQL server. This decision allowed for better query performance. 
 
+  [Database](/imgs/databasemysql.png)
+
   I also demonstrated an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals. This project demonstrates how innovative tools like Node.js, MySQL, and Fetch API can be used to accomplish industry-specific goals, such as building responsive, scalable web applications. It also shows how important connecting various components such as the client, server, and database, in an efficient and effective manner, ensuring the solution is both functional and user-friendly.
 
   I also accomplished the course outcome of designing, developing, and delivering professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.
