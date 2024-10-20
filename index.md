@@ -26,6 +26,24 @@
 ## **Enhancement One: Software Design and Engineering**
 
 ## **Enhancement Two: Data Structures and Algorithms** 
+  I chose the Trivia App artifact for this enhancement because it represents a comprehensive application of data structures and algorithm, specifically the use of the Binary Search Tree for managing and organizing quiz questions to enhance the functionality and performance of the application. 
+
+  The key aspects of this artifact is the implementation of a Binary Search Tree to store and retrieve quiz questions and display them in order. The questions are inserted into the tree based on the lexicographical order of the question text, and an in-order traversal ensures that the questions are presented to the user in alphabetical order. This implementation showcases my understanding of data structures and the ability to manipulate them for practical use.
+
+  The artifact improved in many ways. I implemented this BST to dynamically sort the trivia questions in alphabetical order based on their text. This addition showcases the use of algorithms and data structures to solve a real-world problem. With the implementation of this BST, the app is now more scalable, allowing for the addition of new questions without affecting the overall efficiency. With the app efficiently organizing and retrieving questions in a lexicographical order, the time complexity of insertion and sorting is handled more efficiently compared to manual sorting methods. The in-order traversal of the BST guarantees that questions are presented in the correct order, improving both the user experience and the underlying performance.
+
+  The course outcome I planned to meet was: Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices. I met this outcome by implementing a BST that leverages key algorithmic concepts, such as inserting elements based on their order and traversing the tree in order to retrieve the sorted list.
+
+  The BST has an average time complexity of O(log n) for insertions and O(n) for traversals, which is efficient for the small dataset I’m working with. One of the trade-offs I had to manage was, that if the dataset grows, considerations about balanced trees may need to be made to avoid worst-case O(n) behavior during insertions. This BST fits the scale of the application, managing the trade-off between simplicity and efficiency.
+
+  Implementing a BST taught me the benefits of choosing the right data structure based on the problem. Sorting the questions alphabetically through the BST’s in-order traversal is a clear example of how data structures can help organize and manage data more efficiently than manually coding for such tasks.
+
+  I’ve never used a BST before so implementing it was challenging at first, mainly the logic for insertion and ensuring the tree balanced itself during operation. Understanding how to properly traverse the tree in order to display the questions in a sorted manner was a key challenge that required multiple redo’s to get right.
+
+
+
+
+
 
 ## **Enhancement Three: Databases**
   I chose the Trivia App artifact for this enhancement because it demonstrates my ability to develop a full-stack application with both a front-end interface and a back-end powered by a MySQL database. This Trivia App integrates multiple areas of software development, including database design, server-side programming, and client-side rendering of dynamic content. It reflects my proficiency in developing a structured, data-driven application, from setting up the database schema to handling user interactions in a browser-based interface. The artifact improved from having all the questions stored in a single array of objects to having all the questions stored in a MySQL database.
