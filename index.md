@@ -38,7 +38,7 @@
 
   This enhancement demonstrates my ability to apply well-founded and innovative techniques, skills, and tools in software development to create efficient and maintainable solutions. Specifically, it showcases software design principles such as modularity, reusability, and maintainability, aligning with outcomes related to software engineering best practices. By transitioning the app to React, I showcased my ability to adapt to new frameworks and design interactive, dynamic web applications using modern development techniques.
 
-  ![Enhanced Software Design and Engineering Repo](https://github.com/luisdaniel0/EnhancementOne-Software-Design-and-Engineering)
+  ![Enhanced Repo](https://github.com/luisdaniel0/EnhancementOne-Software-Design-and-Engineering)
 
 ## **Enhancement Two: Data Structures and Algorithms** 
   I chose the Trivia App artifact for this enhancement because it represents a comprehensive application of data structures and algorithm, specifically the use of the Binary Search Tree for managing and organizing quiz questions to enhance the functionality and performance of the application. 
