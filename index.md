@@ -8,7 +8,7 @@
 
   Additionally, CS465 equipped me with foundational skills for building robust, full-stack web applications, essential for my pursuit of a career in software engineering. In this course, I learned how to connect client interfaces with server-side functionality and manage databases like MongoDB. I also gained experience with version control tools like Git, preparing me to collaborate effectively in a team environment and communicate with stakeholders, which is vital in the field of software engineering. Clear communication with stakeholders ensures that project requirements are met and helps align technical solutions with business needs.
 
-## **Artifact**
+### **Artifact**
   The original artifact submitted for the portfolio is a Trivia App built with HTML/CSS/Javascript. This project serves as a testament to my skills across three key areas of computer science: software design and engineering, algorithms and data structures, and databases.
 
   In the Software Design and Engineering category, I focused on modernizing the application's architecture by transitioning from a traditional codebase to a more structured and maintainable framework. This involved implementing best practices in UI/UX design to create a more engaging and interactive user experience.
