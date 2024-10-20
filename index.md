@@ -19,6 +19,8 @@
 
   These enhancements illustrate my approach to software development, highlighting my technical knowledge and ability to apply computer science principles to real-world applications.
 
+  [Original Artifact Repository](https://github.com/luisdaniel0/trivia-game)
+
 ## **Code Review**
 
 [Code Review Link](https://www.youtube.com/watch?v=xxfROwJEXEE)
